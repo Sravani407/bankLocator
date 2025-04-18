@@ -13,12 +13,6 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -31,3 +25,40 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Java build files
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Eclipse & IntelliJ
+*.iml
+.idea/
+*.ipr
+*.iws
+*.swp
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Maven
+/logs
+/.mvn/
+!src/main/resources/static/
+!src/main/resources/templates/
+mvnw
+mvnw.cmd
+
+# Application config (like API keys)
+application.properties
+application.yml
+
+# Git
+.git/
